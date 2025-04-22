@@ -5,7 +5,7 @@
 Modelling TMS-EEG evoked responses
 ========================================================
 
-This example runs a minimal example based on the analysis in the paaper :footcite:`MomiEtAl2023`:
+This example runs a minimal example based on the analysis in the paper MomiEtAl2023
 
 Momi, D., Wang, Z., Griffiths, J.D. (2023).
  "TMS-evoked responses are driven by recurrent large-scale network dynamics."
@@ -16,7 +16,6 @@ The code includes data fetching, model fitting, and result visualization based o
 """
 
 # sphinx_gallery_thumbnail_number = 1
-#
 # %%
 # Setup
 # --------------------------------------------------
@@ -32,7 +31,7 @@ sys.path.append('..')
 # whobpyt stuff
 import whobpyt
 from whobpyt.datatypes import Parameter as par, Timeseries
-from whobpyt.models.jansen_rit import JansenRitModel,JansenRitParams
+from whobpyt.models.JansenRit.jansen_rit import JansenRitModel,JansenRitParams
 from whobpyt.run import ModelFitting
 from whobpyt.optimization.custom_cost_JR import CostsJR
 
